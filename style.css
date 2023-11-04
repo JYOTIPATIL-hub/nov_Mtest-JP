@@ -506,16 +506,18 @@ header {
 .companies {
   width: 90%;
   margin: auto;
+  
 }
 .companies > img {
-  width: 140px;
-  object-fit: contain;
-  margin: 30px;
-  transition: scale 1s linear;
-}
-.companies > img:hover {
-  scale: 1.2;
-}
+    width: 250px;
+    object-fit: contain;
+    margin: 60px;
+
+  }
+  /*.companies > img:hover {
+    scale: 1.2;
+  }*/
+
 .button {
   margin-top: 30px;
   transition: scale 2s linear;
